@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>CodeQueen LMS signup</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    
+    
+    <body>
+        <div></div><img id="logoArea" src="public/images/signage2.png" /> <span id="titleArea">LEARNING MANAGENMENT SYSTEM.</span>
+        <div class="card" style="width: 70rem; height:34rem  ">
+            <div class="card-body">
+                <form method="POST" action="/signUp" name="signUpForm">
+                    <div class="transbox">
+                        <div id="signInLabel">SIGN UP</div>
+                        
+                        <div><input id="username" type="text" name="username" placeholder="Username" />
+                            <p class="username_info warnP"> </p>
+                        </div>
+                        <div><input id="password1" type="password" name="password" autocomplete="off" placeholder="Password" />
+                            <p class="password1_info warnP"></p>
+                        </div>
+                        <div id="submitDiv"><input class="button" id="submit" type="submit" value="SIGN UP" /></div>
+                    </div>
+                    
+                </form>
+            </div>
+            <script src="/javascript/signUpVal.js"> </script>
+        </div>
+       
+    </body>
+    </html>
