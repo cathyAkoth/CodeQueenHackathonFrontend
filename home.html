@@ -7,7 +7,11 @@
         <title>CodeQueen AdminHome</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/6aa51d3dec.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', integrity='sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN', crossorigin='anonymous'">
+        <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin='anonymous'>
         <link rel="stylesheet" href="./CSS/index.css">
         <link rel="stylesheet" href="./CSS/home.css">
         
@@ -17,6 +21,7 @@
     <body>
       
         <div class="header"><img id="logoArea" src="./Images/logo.png" /> <span id="titleArea">LEARNING MANAGENMENT SYSTEM.</span>
+        <span id="icons"><i class="fas fa-envelope"></i></span>
         </div>
 
         <div class="container">
@@ -29,10 +34,35 @@
                 <li><a href="#"style="text-decoration: none; color:orange" >Reports</a></li><br>
                 <li><a href="#"style="text-decoration: none; color:orange" >signUp</a></li><br>
                 <li><a href="#"style="text-decoration: none; color:orange" >Logout</a></li><br>
+               
            
             </div>
             <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-                <h1>The pook<h1>
+                <div class="card" >
+                    <form class="example" action="action_page.php">
+                        <input type="text" placeholder="search" name="search">
+
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                      </form>
+                      <form class="example1" action="action_page.php">
+                        
+
+                        <button type="submit"><i class="fas fa-plus"></i>Add Student</button>
+                      </form>
+                    <table class="table table-striped table-hover" >
+                        
+                        <th>StudentID</th> 
+                        <th>FirstName</th> 
+                        <th>LastName</th> 
+                        <th>PhoneNo.</th> 
+                        <th>Nationality</th> 
+                        <th>Course</th>
+                        <th>Status</th> 
+                        <th>Action</th> 
+                        <th></th>
+                        ...
+                      </table>
+                  </div>
            
             </div>
             </div>
