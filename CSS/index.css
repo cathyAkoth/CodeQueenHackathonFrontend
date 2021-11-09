@@ -1,0 +1,82 @@
+
+      body{
+      background-image: url("/images/orange1.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      }
+      
+      #signInLabel{
+      text-align: center;
+      color: green;
+      font-size : 25px
+      
+      }
+      div.transbox{
+      border-radius: 4px;
+      background-color: rgb(245, 127, 146); ;
+      padding: 20px;
+      max-width: 250px;
+      margin: 60px auto;
+      opacity: 0.9;
+     
+      
+      }
+      
+      input[type=text], select {
+      width: 100%;
+      padding: 10px 20px;
+      margin: 6px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 2px;
+      box-sizing: border-box;
+      color: black ;
+      }
+      input[type=password], select {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4%;
+      box-sizing: border-box;
+      }
+      input[type=submit] {
+      width: 50%;
+      color: black;
+      padding: 14px 20px;
+      margin: 50px;
+      border: none;
+      
+      border-radius: 50px;
+      cursor: pointer;
+      background-color: rgb(236, 67, 95); 
+      }
+      input[type=submit]:hover {
+      background-color:rgb(167, 8, 35);
+      }
+      
+
+   
+      #logoArea{
+        width:7%;
+        margin: 2px;
+      }
+      #titleArea{
+        
+        color:rgb(236, 67, 95);
+        /* text-align:left; */
+        font-size:25px;
+        font-family:poppins;
+        font-weight:bold;
+        
+      }
+      .header{
+        background-color:rgb(70, 237, 243) ;
+        color:pink;
+        height: 100px; 
+         
+      }
+      
+      
