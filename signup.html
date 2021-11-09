@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, inital-scale=1.0">
+        <link rel="icon" href="codequeen.jpg" type="image/x-icon">
+        <title>codequeen</title>
+        <link rel="stylesheet" href="signup.css"> 
+        
+    </head>
+
+    <body>
+        <div class="header"><img id="logoArea" src="./Images/logo.png" /> <span id="titleArea">LEARNING MANAGENMENT SYSTEM.</span>
+            <div class="background" style="background-image: url('./Images/bg.jpg');"> 
+        <div class="card">
+            <div>
+                <form action="/signup" method="POST" name="Registrationform">
+            
+            <div class="transbox">
+                <div><h3>Registration Form</h3></div>
+                <div>
+                    <input type="FirstName" type="text" name="FirstName" id="FirstName" placeholder="FirstName">
+                    <input type="LastName" type="text" name="LastName" id="LastName" placeholder="LastName">
+                                         
+                </div>
+                <div>
+                    <input type="Age" type="text" name="Age" id="Age" placeholder="Age">
+                    <input type="Nationality" type="text" name="Nationality" id="Nationality" placeholder="Nationality">
+
+                </div>
+                <div>
+                    <input type="PhoneNumber" type="text" name="PhoneNumber" id="PhoneNumber" placeholder="Phone Number">
+
+                </div>
+                <div>
+                    <input type="Email" type="text" name="Email" id="Email" placeholder="Email">
+
+                </div>
+                <div>
+                    <input type="Residence" type="text" name="Residence" id="Residence" placeholder="Residence">
+
+                </div>
+                <label for="course">please choose courses:</label>
+                    <select id="course" name="courselist" form="courseform">
+                        <option value="html">html</option>
+                        <option value="css">css</option>
+                        <option value="javascript">javascript</option>
+                    </select>
+                <div>
+                    <label for="img">upload photo</label>
+                    <input type="file" name="photo" id="img" placeholder="photo">
+
+                </div>
+                <div>
+                    <input type="submit" value="sumbit">
+
+                </div>
+                </div>
+                
+        
+                    </form>
+                
+                </div>
+            </div>
+            
+
+
+        </div>
+
+    </body>
+</html>
