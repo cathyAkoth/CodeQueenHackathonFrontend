@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, inital-scale=1.0">
+        <link rel="icon" href="codequeen.jpg" type="image/x-icon">
+        <title>discussion forum</title>
+        <link rel="stylesheet" href="forum.css"> 
+        
+    </head>
+
+    <body>
+        <div class="header"><img id="logoArea" src="./Images/logo.png" /> <span id="titleArea">LEARNING MANAGENMENT SYSTEM.</span>
+           <div class="background" style="background-image: url('./Images/logo.png');"> 
+    <h1>add a topic</h1>
+    <form method="post" action="do_addtopic.php">
+        <p><strong>please enter your email address:</strong></p><br>
+        <input type="text" name="topic_ower" size=40 maxlength=150 placeholder="please provide the correct Email">
+        <p><strong>discussion topic:</strong></p><br>
+        <input type="text" name="topic_topic" size=40 maxlength=150 placeholder="feel free to post any topic for the discussion">
+        <p><strong>post text:</strong></p><br>
+        <textarea name="post_text" row=20 cols=100 wrap=virtual placeholder="type your text here"></textarea>
+
+        <p><input type="submit" name="sumbit" value="add Topic"></p>
+
+    </form>
+    
+    
+    
+    
+    
+        </div>
+
+    </div>
+    </body>
+    </html>
