@@ -11,7 +11,7 @@
     padding: 20px;
     overflow-x: hidden;
     overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
-    background-color:rgb(87, 82, 82) ;
+    background-color:rgb(44, 43, 43) ;
     border-right: 1px solid #eee;
     }
     @media (min-width: 768px) {
@@ -90,5 +90,5 @@
       #icons{
           float:right;
       }
-
+      
     }
