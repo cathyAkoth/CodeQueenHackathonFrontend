@@ -1,7 +1,9 @@
 body{
       
-    background-repeat: no-repeat;
+    background-repeat:none;
+    background-color: black;
     background-size: cover;
+    display: flex;
     
     }
     
@@ -14,10 +16,10 @@ body{
     }
     #logoArea{
         width:7%;
-        margin: 2px;
+        margin: 0px;
       }
       #titleArea{
-        
+      
         color:orange;
         
         /* text-align:left; */
@@ -27,11 +29,12 @@ body{
         
       }
       .header{
-        background-color:rgb(87, 82, 82) ;
+        background-color:white ;
         box-shadow:5px 5px 5px rgba(68, 52, 52, 0.6);
-        color:pink;
+        color:orange;
         font-family:poppins;
         height: 100px; 
+        width: 100%;
          
       }
      p{

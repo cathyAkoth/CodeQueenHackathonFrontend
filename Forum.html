@@ -11,14 +11,18 @@
     </head>
 
     <body>
-        <div class="header"><img id="logoArea" src="./Images/logo.png" /> <span id="titleArea">LEARNING MANAGENMENT SYSTEM.</span>
-           <div class="background" style="background-image: url('./Images/logo.png');"> 
-    <h1>add a topic</h1>
+        <div class="header"><img id="logoArea" src="./Images/logo.png" /> <span id="titleArea">LEARNING MANAGENMENT SYSTEM</span>
+        
+            <!-- <div class="background" style="background-image: url('./Images/logo.png');">  -->
+    
     <form method="post" action="do_addtopic.php">
+        <div>
+            <h1>DISCUSSION FORUM</h1>
+        </div>
         <p><strong>please enter your email address:</strong></p><br>
-        <input type="text" name="topic_ower" size=40 maxlength=150 placeholder="please provide the correct Email">
+        <input type="text" name="topic_ower" size=50 maxlength=150 placeholder="please provide the correct Email">
         <p><strong>discussion topic:</strong></p><br>
-        <input type="text" name="topic_topic" size=40 maxlength=150 placeholder="feel free to post any topic for the discussion">
+        <input type="text" name="topic_topic" size=50 maxlength=150 placeholder="feel free to post any topic for the discussion">
         <p><strong>post text:</strong></p><br>
         <textarea name="post_text" row=20 cols=100 wrap=virtual placeholder="type your text here"></textarea>
 
@@ -30,7 +34,7 @@
     
     
     
-        </div>
+        <!-- </div> -->
 
     </div>
     </body>

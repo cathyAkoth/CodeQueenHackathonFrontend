@@ -21,8 +21,8 @@
         padding-left: 220px; /* 180 + 40 */
         }
     .card{
-        background-color: rgb(248, 220, 167);
-         color: green;
+        background-color: black;
+         color: white;
          padding: 16px 20px;
          border: none;
          cursor: pointer;
@@ -44,6 +44,9 @@
         
         width: 30%;
         background: #f1f1f1;
+      }
+      body{
+        background-color: orange;
       }
       
       /* Style the submit button */

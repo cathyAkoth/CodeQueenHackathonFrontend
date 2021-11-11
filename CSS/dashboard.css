@@ -7,11 +7,12 @@
 
 body{
     min-height:100vh;
+     background-color: orange; 
 
 }
 a{
     text-decoration: none;
-    color:white;
+    color:black;
 }
 li{
     list-style:none;
@@ -26,7 +27,7 @@ h3 .fas{
     font-size:60px;    
     size:30px;
     padding:10px 40px;
-    color:orange;
+    color:black;
     float: right;
        
 
@@ -34,12 +35,12 @@ h3 .fas{
 }
 .btn{
     background:orange;
-    color:white;
+    color:black;
     padding:5px 10px;
     text-align:center;
 }
 .btn hover{
-    color:orange;
+    color:black;
     background:orangered;
     padding:3px 8px;
     border:2px solid orange;
@@ -61,7 +62,7 @@ th,td{
 
 .side-menu{
     position:fixed;
-    background:orange;
+    /* background:orange; */
     width:20vw;
     min-height:100vh;
     display:flex;
@@ -76,12 +77,12 @@ th,td{
 .side-menu li{
     font-size:24px;
     padding:10px 40px;
-    color:white;
+    color:black;
     display:flex;
     align-items:center;
 }
 .side-menu li:hover{
-    background:white;
+    background:orange;
     color:black;
 }
 .container{
@@ -89,7 +90,7 @@ th,td{
     right:0;
     width:80vw;
     height:100vh;
-    background:whitesmoke;
+ background:black; 
 }
 .container .header{
     position:fixed;
@@ -97,7 +98,7 @@ th,td{
     right:0;
     width:80vw;
     height:10vh;
-    background:rgb(19, 18, 18);
+    background:black;
     display:flex;
     align-items:center;
     justify-content: center;
@@ -146,7 +147,7 @@ th,td{
     
     width:40px;
     height:40px;
-    color:orange;
+    color:black;
 }
 .container .header .nav .user .img-case{
     position:relative;
@@ -177,7 +178,7 @@ th,td{
 .container .content .cards .card{
     width:240px;
     height:150px;
-    background:white;
+    background:orange;
     margin:20px 10px;
     display:flex;
     align-items: center;
@@ -194,7 +195,7 @@ th,td{
 .container .content .content-2 .recent-payments{
     min-height:50vh;
     flex:5;
-    background: white;
+    background: orange;
     margin:0 25px 25px 25px;
     box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(116, 37, 37, 0.19);
     display:flex;
@@ -202,7 +203,7 @@ th,td{
 }
 .container .content .content-2 .new-students{
     flex:2;
-    background:white;
+    background:orange;
     min-height: 50vh;
     margin: 0 25px;
     box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(116, 37, 37, 0.19);
