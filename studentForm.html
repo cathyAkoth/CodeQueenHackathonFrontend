@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="./CSS/studentForm.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="title"> Student Registration</div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box" for ="fname">
+            <span class="details">FirstName</span>
+            <input type="text" placeholder="Enter Student's FirstName" required>
+          </div>
+          <div class="input-box" for ="lname">
+            <span class="details">Username</span>
+            <input type="text" placeholder="Enter Student's LastName" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" placeholder="Enter email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="text" placeholder="Enter number" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Country</span>
+            <select name="country" id="country">
+              <option value="">Choose Country</option>
+              <option value="Uganda">Uganda</option>
+              <option value="Kenya">Kenya</option>
+              <option value="Tanzania">Tanzania</option>
+              
+            </select>
+          </div>
+          <div class="input-box">
+            <span class="details">Course</span>
+            <select name="course" id="course">
+              <option value="">Select Course</option>
+              <option value="Web Development">Web Development</option>
+              <option value="Software Fundamentals">Software Fundamentals/option>
+              <option value="UI/UX">UI/UX</option>
+              
+            </select>
+          </div>
+          <div class="input-box">
+            <span class="details">Status</span>
+            <select name="status" id="status">
+              <option value="">educatin status</option>
+              <option value="completed">completed</option>
+              <option value="retake">retake</option>
+              <option value="graduated">graduated</option>
+              <option value="inprogress">Inprogress</option>
+              
+            </select>
+          </div>
+        </div>
+       
+        
+        <div class="button">
+          <input type="submit" value="Register">
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
+
