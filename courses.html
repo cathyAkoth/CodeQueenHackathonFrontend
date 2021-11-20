@@ -5,18 +5,46 @@
         <meta http-equiv="X-UA-compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, inital-scale=1.0">
         <link rel="icon" href="codequeen.jpg" type="image/x-icon">
-        <title>discussion forum</title>
+        <title>Learning Resources</title>
         <link rel="stylesheet" href="Courses.css"> 
         
     </head>
     <body>
         <div><h1>courses</h1></div>
         <div class="card">
-            <div class="html">
-                <h2>HTML</h2>
-                <p>the language for bilding the webpage</p>
-                <button></button>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">HTML</button>
+            
+                <p>the language for building the webpage</p>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="https://www.w3schools">W3School</a>
+                    <a href="mozilla.org">MDN</a>
+                    <a href="https://www.tutorialspoint.com">Tutorialpoint</a>
+                </div>
+                <div class="card">
+                    <div class="dropdown">
+                        <button onclick="myFunction()" class="dropbtn">CSS</button>
+                    
+                        <p>the language for styling the webpage</p>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="https://www.w3schools">W3School</a>
+                            <a href="mozilla.org">MDN</a>
+                            <a href="https://www.tutorialspoint.com">Tutorialpoint</a>
+                        </div>
+                        <div class="card">
+                            <div class="dropdown">
+                                <button onclick="myFunction()" class="dropbtn">javascript</button>
+                            
+                                <p>the language for programming the webpage</p>
+                                <div id="myDropdown" class="dropdown-content">
+                                    <a href="https://www.w3schools">W3School</a>
+                                    <a href="mozilla.org">MDN</a>
+                                    <a href="https://www.tutorialspoint.com">Tutorialpoint</a>
+                                </div>
+                
             </div>
         </div>
+        <script src="javascript">
+            
     </body>
 </html>

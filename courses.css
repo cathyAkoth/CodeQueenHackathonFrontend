@@ -1,0 +1,45 @@
+body{
+    background-image:black ;
+
+}
+.dropbtn{
+    background-color: orange;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border-radius: none;
+    cursor:pointer;
+}
+.dropdown{
+    position:relative;
+    display: inline-block;
+
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    box-shadow:0px, 8px, 16px, 0px color="black" ;
+    z-index:1;
+
+}
+p{
+    color: white;
+}
+.card{
+    display: flex;
+    background-color: black;
+    width:50%;
+
+}
+.dropdown-content a{
+    color: black;
+    padding: 20px 26px;
+    display: block;
+}
+.dropdown-content a:hover{background-color: orangered;
+}
+.show{
+    display:block
+}
